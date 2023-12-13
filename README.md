@@ -20,6 +20,7 @@ Rồi nhấn `Enter`.
 
 ## Sử dụng Colab để mount với Onedrive
 Link download file colab: https://colab.research.google.com/drive/1vuYdim66UMG5TOc9ccCThgQBSH6X8q_a?usp=sharing
+Video: https://youtu.be/U6YPgARhRzA?si=59_MebFPBpsGk-iE
 ### Chi tiết các cell
 1. Cell tải rclone cho colab
 ```sh
@@ -327,3 +328,7 @@ e/n/d/r/c/s/q> q
 ![Mount thành công OneDrive với file Colab](img/success_mount_drive.png)
 ![Lấy thành công access token với rclone ở dưới máy](img/get_token_from_local.png)
 
+## Tham khảo
+1. https://youtu.be/U6YPgARhRzA?si=59_MebFPBpsGk-iE
+2. https://installati.one/install-fuse3-ubuntu-20-04
+3. https://github.com/rclone/rclone/issues/6844#issuecomment-1474183838
