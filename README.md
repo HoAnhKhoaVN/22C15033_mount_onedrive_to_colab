@@ -43,6 +43,16 @@ Video: https://youtu.be/U6YPgARhRzA?si=59_MebFPBpsGk-iE
 !sudo mkdir /content/onedrive
 !nohup rclone --vfs-cache-mode writes mount onedrive: /content/onedrive &
 ```
+### Full code
+```sh
+!wget https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-amd64.deb
+!apt install ./rclone-v1.65.0-linux-amd64.deb
+!rclone config
+!apt-get -y install fuse3
+!sudo mkdir /content/onedrive
+!nohup rclone --vfs-cache-mode writes mount onedrive: /content/onedrive &
+```
+
 ### Cách cấu hình rclone trên Colab
 ```sh
 2023/12/13 09:12:44 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
